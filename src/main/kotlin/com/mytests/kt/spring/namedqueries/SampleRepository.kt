@@ -19,4 +19,7 @@ interface SampleRepository : CrudRepository<SampleEntity?, Int?>{
     fun query2(color: String, sample: String): List<SampleEntity>
     fun nativeQuery1(color: String): List<Int>
     fun nativeQuery2(sample: String): List<Int>
+
+    fun findByColor(color: String): List<SampleEntity>
+
 }

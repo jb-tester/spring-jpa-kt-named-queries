@@ -1,8 +1,6 @@
 package com.mytests.kt.spring.namedqueries
 
-import com.mytests.kt.spring.namedqueries.ContactEntity
-import java.util.*
-import javax.persistence.*
+import jakarta.persistence.*
 
 /**
  * *

@@ -1,6 +1,6 @@
 package com.mytests.kt.spring.namedqueries
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "sample", schema = "jbtests")
